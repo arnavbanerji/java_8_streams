@@ -8,7 +8,7 @@ public class CustomSinglyLinkedList {
 
 	public void insert(int addedData) {
 		SingleNode newNode = new SingleNode(addedData);
-		newNode.setNext(null);
+		//newNode.setNext(null);
 		if(this.head == null) {
 			this.head = newNode;
 		} else {
